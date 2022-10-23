@@ -5,10 +5,10 @@ import '../../models/cart_item.dart';
 class CartManager {
   final Map<String, CartItem> _items = {
     'p1': CartItem(
-      id: 'p1',
+      id: 'c1',
       title: 'Red Shirt',
-      quantity: 2,
       price: 29.99,
+      quantity: 2,
     ),
   };
 

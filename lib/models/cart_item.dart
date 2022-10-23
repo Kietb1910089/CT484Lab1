@@ -14,8 +14,8 @@ class CartItem {
   CartItem copyWith({
     String? id,
     String? title,
-    int? quantity,
     double? price,
+    int? quantity,
   }) {
     return CartItem(
         id: id ?? this.id,
