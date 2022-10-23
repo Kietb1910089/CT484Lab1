@@ -81,4 +81,6 @@ class CartManager with ChangeNotifier {
       notifyListeners();
     }
   }
+
+  void clear() {}
 }
